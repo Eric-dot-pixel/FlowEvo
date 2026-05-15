@@ -364,6 +364,7 @@ def main() -> None:
     parser.add_argument("--betas", type=float, nargs="+", default=[0.5])
     parser.add_argument("--budget", type=int, default=64)
     parser.add_argument("--output", default=str(_default_output_path()))
+    parser.add_argument("--summary-output", default=None)
     parser.add_argument("--compact", action="store_true")
     parser.add_argument("--model", default=str(_default_model_path()))
     parser.add_argument("--pickscore-model", default=str(_default_pickscore_path()))
@@ -413,7 +414,10 @@ def main() -> None:
         local_files_only=not args.allow_remote_files,
         progress=args.progress,
     )
-    print(json.dumps(compact_summary(history), indent=2, sort_keys=True))
+    summary = compact_summary(history)
+    if args.summary_output is not None:
+        _write_json(summary, args.summary_output)
+    print(json.dumps(summary, indent=2, sort_keys=True))
 
 
 if __name__ == "__main__":
