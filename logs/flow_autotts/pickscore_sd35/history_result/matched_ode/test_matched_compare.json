@@ -1,0 +1,64 @@
+{
+  "comparisons": [
+    {
+      "best_nfe": 10.0,
+      "best_reward": 0.82123224606039,
+      "best_reward_per_nfe": 0.082123224606039,
+      "beta": 0.0,
+      "matched_ode_nfe": 10.0,
+      "matched_ode_reward": 0.82123224606039,
+      "matched_ode_reward_per_nfe": 0.082123224606039,
+      "nfe_delta": 0.0,
+      "reward_delta": 0.0,
+      "target_nfe": 10
+    },
+    {
+      "best_nfe": 22.0,
+      "best_reward": 0.833190373814432,
+      "best_reward_per_nfe": 0.03787228971883782,
+      "beta": 0.25,
+      "matched_ode_nfe": 25.0,
+      "matched_ode_reward": 0.8344374960288405,
+      "matched_ode_reward_per_nfe": 0.033377499841153624,
+      "nfe_delta": -3.0,
+      "reward_delta": -0.0012471222144085914,
+      "target_nfe": 25
+    },
+    {
+      "best_nfe": 46.9296875,
+      "best_reward": 0.8452662741183303,
+      "best_reward_per_nfe": 0.018011333958239766,
+      "beta": 0.5,
+      "matched_ode_nfe": 47.0,
+      "matched_ode_reward": 0.8342645419761539,
+      "matched_ode_reward_per_nfe": 0.017750309403747954,
+      "nfe_delta": -0.0703125,
+      "reward_delta": 0.011001732142176479,
+      "target_nfe": 47
+    },
+    {
+      "best_nfe": 72.5166015625,
+      "best_reward": 0.8455786300473846,
+      "best_reward_per_nfe": 0.011660483417974358,
+      "beta": 0.75,
+      "matched_ode_nfe": 73.0,
+      "matched_ode_reward": 0.833595605159644,
+      "matched_ode_reward_per_nfe": 0.011419117878899234,
+      "nfe_delta": -0.4833984375,
+      "reward_delta": 0.011983024887740612,
+      "target_nfe": 73
+    },
+    {
+      "best_nfe": 100.7900390625,
+      "best_reward": 0.849262941716006,
+      "best_reward_per_nfe": 0.008426060249757193,
+      "beta": 1.0,
+      "matched_ode_nfe": 102.0,
+      "matched_ode_reward": 0.8334171767637599,
+      "matched_ode_reward_per_nfe": 0.008170756634938823,
+      "nfe_delta": -1.2099609375,
+      "reward_delta": 0.0158457649522461,
+      "target_nfe": 102
+    }
+  ]
+}

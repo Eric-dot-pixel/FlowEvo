@@ -1,0 +1,41 @@
+Implemented a new width-first controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L10). The policy is: scout multiple roots early, preview them, prune losers, confirm survivors deeper, fully finish more than one survivor when evidence is ambiguous, and only then spend backward children on the most promising anchors. The key behavioral change is that compute is no longer dominated by repeated single-root backward refinement; mid/high beta now allocates real budget to independent width plus late confirmation.
+
+I inspected the compact frontier rows in the context pack and the recent snapshots `r0002`, `r0001`, and `r0000`. The important rows were:
+- `r0002`: `beta=0.25` `17 NFE / 0.8253`, `beta=0.5` `17 / 0.8047`, `beta=0.75` `33.27 / 0.8196`, `beta=1.0` `64.74 / 0.8233`.
+- `r0001`: `beta=0.25` `26.10 / 0.8342`, `beta=0.5` `45.67 / 0.8394`, `beta=0.75` `64.83 / 0.8360`, `beta=1.0` `91.92 / 0.8380`.
+- ODE baseline nearest rows: `24 / 0.8167`, `44 / 0.8422`, `72 / 0.8481`, `100 / 0.8495`.
+- Conclusion: low beta was fine, `beta=0.5` was a real weakness, and high beta was spending a lot on the wrong actions while still losing to ODE.
+
+The exact beta schedule is in [_schedule](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L53).
+- `roots = 2 + 1[beta>=0.35] + 1[beta>=0.65] + 1[beta>=0.90]`
+- `keep = 1 + 1[beta>=0.22] + 1[beta>=0.60] + 1[beta>=0.88]`
+- `finish_roots = 1 + 1[beta>=0.50] + 1[beta>=0.82]`
+- `branch_anchors = 1[beta>=0.28] + 1[beta>=0.58] + 1[beta>=0.88]`
+- `children = 1[beta>=0.28] + 1[beta>=0.72] + 1[beta>=0.92]`
+- `late_passes = 1[beta>=0.58] + 1[beta>=0.86]`
+- `scout_time = 0.20 + 0.10*beta`, `confirm_time = 0.52 + 0.18*beta`, `finish_time = 0.88 + 0.10*beta`, `branch_time = clamp(0.82 - 0.18*beta, 0.58, 0.86)`
+- `noise_policy = inferred_noise` for `beta<0.42`, else `mixed_noise`; `noise_strength = max(0.20, 0.58 - 0.22*beta)`
+- Monotonicity comes from nondecreasing width/survivor/branch/recheck counts and later confirmation/finish stages as beta rises.
+
+Behaviorally new relative to the recent best:
+- Multi-root scout -> confirm -> full-finish pipeline before backward, rather than single-root late branching.
+- Score-gap and uncertainty now decide whether to keep diversity, finish multiple roots, and add extra children.
+- Added cheap late rechecks of top candidates when the top score is still uncertain, instead of always spending on more backward offspring.
+- This specifically targets the prior underuse at `beta=0.5` and the poor high-beta allocation.
+
+Checks run:
+- `python3 -m py_compile flow_autotts/controllers/optimal.py`
+- `python3` fake-env dry run covering `beta = 0.0, 0.25, 0.5, 0.75, 1.0`
+- Fake-env NFE profile was monotone: about `10, 26, 45, 65, 103`
+
+Expected risks and intended gains:
+- Main target is `beta=0.5`, where the previous round collapsed to `17 NFE`; this proposal should spend in the low-40s with real width and confirmation.
+- Secondary target is `beta=0.75` and `beta=1.0`, where prior controllers spent a lot on backward/preview loops but still trailed ODE; this proposal shifts some of that spend into independent survivor completion and confirmation.
+- Risk: if early previews are much noisier than expected, pruning after the scout stage could still drop a late-blooming root. I partially guard against that by expanding `keep`, `finish_roots`, and branch anchors when score gaps are small or uncertainty is high.
+
+Target-NFE reflection by beta:
+- `beta=0.0`: underuse is justified. I keep deterministic ODE-style behavior near `10` NFE.
+- `beta=0.25`: not trying to fill the whole budget. Cheap scout plus confirm plus one finished winner is intentional; spending much more here risks losing the low-budget tradeoff.
+- `beta=0.5`: prior underuse was not justified. I explicitly raised width, survivor finishing, and allowed first backward refinement to push this regime toward the `~44` NFE frontier.
+- `beta=0.75`: prior underuse looked only partly justified. I increased roots, keep set, finish count, backward budget, and added one late recheck to use more of the useful budget.
+- `beta=1.0`: prior high-beta spending was still not competitive. I increased width, finish count, branch anchors, child count, and late rechecks so the controller is more willing to spend near the ceiling when ambiguity remains.

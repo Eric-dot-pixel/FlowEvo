@@ -1,0 +1,110 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]Loading pipeline components...:  22%|██▏       | 2/9 [00:00<00:01,  5.54it/s]Loading pipeline components...:  33%|███▎      | 3/9 [00:00<00:01,  5.42it/s]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  21%|██        | 106/517 [00:00<00:00, 1033.95it/s][A
+Loading weights:  41%|████      | 210/517 [00:00<00:00, 752.16it/s] [A
+Loading weights:  56%|█████▌    | 290/517 [00:00<00:00, 742.87it/s][A
+Loading weights:  71%|███████   | 367/517 [00:00<00:00, 740.79it/s][A
+Loading weights:  93%|█████████▎| 480/517 [00:00<00:00, 855.66it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 785.82it/s]
+Loading pipeline components...:  67%|██████▋   | 6/9 [00:02<00:01,  2.58it/s]Loading pipeline components...:  78%|███████▊  | 7/9 [00:03<00:01,  1.40it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][A
+Loading weights:  34%|███▎      | 66/197 [00:00<00:00, 659.24it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 1094.20it/s]
+Loading pipeline components...:  89%|████████▉ | 8/9 [00:04<00:00,  1.62it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   4%|▎         | 8/219 [00:00<00:03, 53.18it/s][A
+Loading weights:   6%|▋         | 14/219 [00:00<00:03, 55.87it/s][A
+Loading weights:  10%|▉         | 21/219 [00:00<00:04, 43.53it/s][A
+Loading weights:  14%|█▎        | 30/219 [00:00<00:03, 54.43it/s][A
+Loading weights:  16%|█▋        | 36/219 [00:00<00:03, 52.50it/s][A
+Loading weights:  19%|█▉        | 42/219 [00:00<00:03, 46.38it/s][A
+Loading weights:  22%|██▏       | 48/219 [00:01<00:04, 40.10it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:01<00:03, 53.09it/s][A
+Loading weights:  29%|██▉       | 64/219 [00:01<00:03, 44.45it/s][A
+Loading weights:  32%|███▏      | 71/219 [00:01<00:02, 49.79it/s][A
+Loading weights:  35%|███▌      | 77/219 [00:01<00:02, 50.83it/s][A
+Loading weights:  39%|███▉      | 86/219 [00:01<00:02, 57.49it/s][A
+Loading weights:  42%|████▏     | 93/219 [00:01<00:02, 59.71it/s][A
+Loading weights:  47%|████▋     | 102/219 [00:01<00:01, 58.67it/s][A
+Loading weights:  50%|████▉     | 109/219 [00:02<00:01, 60.21it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:02<00:01, 58.61it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:02<00:01, 62.75it/s][A
+Loading weights:  60%|█████▉    | 131/219 [00:02<00:01, 55.95it/s][A
+Loading weights:  63%|██████▎   | 137/219 [00:02<00:01, 52.65it/s][A
+Loading weights:  66%|██████▌   | 145/219 [00:02<00:01, 59.22it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:02<00:01, 50.32it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:03<00:01, 55.76it/s][A
+Loading weights:  76%|███████▌  | 166/219 [00:03<00:01, 49.70it/s][A
+Loading weights:  79%|███████▊  | 172/219 [00:03<00:00, 49.45it/s][A
+Loading weights:  81%|████████▏ | 178/219 [00:03<00:00, 49.02it/s][A
+Loading weights:  84%|████████▍ | 185/219 [00:03<00:00, 47.09it/s][A
+Loading weights:  88%|████████▊ | 192/219 [00:03<00:00, 49.40it/s][A
+Loading weights:  92%|█████████▏| 201/219 [00:03<00:00, 57.13it/s][A
+Loading weights:  95%|█████████▍| 207/219 [00:03<00:00, 51.18it/s][ALoading weights: 100%|██████████| 219/219 [00:04<00:00, 54.05it/s]
+Loading pipeline components...: 100%|██████████| 9/9 [00:09<00:00,  1.73s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:09<00:00,  1.00s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 12637.50it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics, artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['colliseum, intense heavy street battle, rpg rulebook photo, barracks, brick, high school, wielding a spear, indoor, portcullis, speed, outstanding detail, roleplay, schools,in front of a building,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', urban setting, unique character, creative concept, clever design, whimsical, refined appearance, DSLR quality, depth of field, sharp focus, high resolution, vibrant colors, natural lighting, cinematic composition, dynamic angle, professional photography, detailed textures, lifelike rendering, cozy atmosphere, relaxed environment, elegant background, blurred cafe scene, warm color palette, tasteful decor, stylish furnishings, soft lighting, inviting ambiance']
+{
+  "betas": [
+    0.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 125,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 47.0,
+            "mean_nfe": 47.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=47.00)",
+          "beta": 0.0,
+          "nfe": 47,
+          "reward": 0.8332200846672058,
+          "reward_per_nfe": 0.01772808690781289
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 47.0,
+            "mean_nfe": 47.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=47.00)",
+          "beta": 0.0,
+          "nfe": 47,
+          "reward": 0.8332200846672058,
+          "reward_per_nfe": 0.01772808690781289
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": 0
+}

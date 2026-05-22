@@ -1,0 +1,3109 @@
+{
+  "betas": [
+    0.5
+  ],
+  "budget": 128,
+  "dataset": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_grpo/dataset/pickscore",
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "env_config": {
+    "guidance_scale": 4.5,
+    "max_sequence_length": 128,
+    "noise_level": 0.7,
+    "num_steps": 10,
+    "resolution": 512,
+    "sde_type": "sde"
+  },
+  "evaluated_prompt_sample": [
+    {
+      "index": 20952,
+      "prompt": "by Kris Kuksi, sculptural compositions, by kuksi.com, Indian style, religious decorations on people, mythological beasts, in motion, dance, professional lightcube, miniature, Camera Olympus E-M10 mark 2, Aperture - f/5.6-8.0, Shutter speed - 1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics , artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,",
+      "seed": 234255678
+    },
+    {
+      "index": 3648,
+      "prompt": "A very detailed 3d painting of modern London scenery from the parliament hill, in the style of David Roberts' The siege and destruction of Jerusalem",
+      "seed": 75474175
+    },
+    {
+      "index": 819,
+      "prompt": "photo of  a millenium falcon in the city river with teddybear,flooded mini,splashing misty mud rocks,panorama,city buildings, large teddybears",
+      "seed": 49515272
+    },
+    {
+      "index": 24299,
+      "prompt": "This is a powerful photograph that showcases Walter White, the iconic character from Breaking Bad, holding a large metal sign with the text \"Make blue great again!\" emblazoned in bold white letters. The sign dominates the foreground, serving as a stark reminder of Walter's ruthless and ambitious nature. It appears weathered and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign.  The \"Make blue great again!\" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign's message is clear and direct, serving as a symbol of Walter's unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact.  The \"Make blue great again!\" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign's message is both ambiguous and ominous, hinting at Walter's complicated and dangerous character",
+      "seed": 264967753
+    },
+    {
+      "index": 9012,
+      "prompt": "Mister sentry, who keeps the atmosphere under the stop of time, fantasy, sci-fi, epic realistic",
+      "seed": 124694242
+    },
+    {
+      "index": 8024,
+      "prompt": "cute cat in a teacup, artistic art print, spashes of paint, strong vibrant colours, wet paint on canvas",
+      "seed": 115628355
+    },
+    {
+      "index": 7314,
+      "prompt": "A super detailed white mecha, gundam, render, sci-fi, futuristic, unreal, unreal engine",
+      "seed": 109113396
+    },
+    {
+      "index": 4572,
+      "prompt": "cafe logo, emoji style, indian cooking, color logo, HD, 3d, family, healthy food,",
+      "seed": 83952805
+    }
+  ],
+  "evaluated_sample_size": 8,
+  "experiment": "pickscore_sd35",
+  "model_path": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/SD_3.5_med",
+  "num_shards": 1,
+  "offload_text_encoders_after_encode": false,
+  "pickscore_model_path": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/PickScore_v1",
+  "prompt_sample": [
+    {
+      "index": 20952,
+      "prompt": "by Kris Kuksi, sculptural compositions, by kuksi.com, Indian style, religious decorations on people, mythological beasts, in motion, dance, professional lightcube, miniature, Camera Olympus E-M10 mark 2, Aperture - f/5.6-8.0, Shutter speed - 1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics , artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,",
+      "seed": 234255678
+    },
+    {
+      "index": 3648,
+      "prompt": "A very detailed 3d painting of modern London scenery from the parliament hill, in the style of David Roberts' The siege and destruction of Jerusalem",
+      "seed": 75474175
+    },
+    {
+      "index": 819,
+      "prompt": "photo of  a millenium falcon in the city river with teddybear,flooded mini,splashing misty mud rocks,panorama,city buildings, large teddybears",
+      "seed": 49515272
+    },
+    {
+      "index": 24299,
+      "prompt": "This is a powerful photograph that showcases Walter White, the iconic character from Breaking Bad, holding a large metal sign with the text \"Make blue great again!\" emblazoned in bold white letters. The sign dominates the foreground, serving as a stark reminder of Walter's ruthless and ambitious nature. It appears weathered and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign.  The \"Make blue great again!\" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign's message is clear and direct, serving as a symbol of Walter's unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact.  The \"Make blue great again!\" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign's message is both ambiguous and ominous, hinting at Walter's complicated and dangerous character",
+      "seed": 264967753
+    },
+    {
+      "index": 9012,
+      "prompt": "Mister sentry, who keeps the atmosphere under the stop of time, fantasy, sci-fi, epic realistic",
+      "seed": 124694242
+    },
+    {
+      "index": 8024,
+      "prompt": "cute cat in a teacup, artistic art print, spashes of paint, strong vibrant colours, wet paint on canvas",
+      "seed": 115628355
+    },
+    {
+      "index": 7314,
+      "prompt": "A super detailed white mecha, gundam, render, sci-fi, futuristic, unreal, unreal engine",
+      "seed": 109113396
+    },
+    {
+      "index": 4572,
+      "prompt": "cafe logo, emoji style, indian cooking, color logo, HD, 3d, family, healthy food,",
+      "seed": 83952805
+    }
+  ],
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 1.0,
+            "forward": 12.0,
+            "mean_nfe": 17.0,
+            "preview": 5.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=5.00, backward=1.00, nfe=17.00)",
+          "beta": 0.5,
+          "nfe": 17,
+          "reward": 0.7882316261529922,
+          "reward_per_nfe": 0.04636656624429366
+        }
+      ],
+      "controller_key": "optimal",
+      "controller_name": "OptimalController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 1.0,
+            "forward": 12.0,
+            "mean_nfe": 17.0,
+            "preview": 5.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=5.00, backward=1.00, nfe=17.00)",
+          "beta": 0.5,
+          "nfe": 17,
+          "reward": 0.7882316261529922,
+          "reward_per_nfe": 0.04636656624429366
+        }
+      ],
+      "raw_results": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 1.0,
+            "forward": 12.0,
+            "mean_nfe": 17.0,
+            "preview": 5.0,
+            "spawn": 1.0
+          },
+          "beta": 0.5,
+          "episodes": [
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 2,
+                "preview_id": 4,
+                "reward": 0.7622215151786804,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.7622215151786804
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.6590601801872253,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.6397236585617065,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.7089210152626038,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.7431700825691223,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.7622215151786804,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 4,
+                    "reward": 0.7622215151786804,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.7622215151786804,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.044836559716392964,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "by Kris Kuksi, sculptural compositions, by kuksi.com, Indian style, religious decorations on people, mythological beasts, in motion, dance, professional lightcube, miniature, Camera Olympus E-M10 mark 2, Aperture - f/5.6-8.0, Shutter speed - 1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics , artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,",
+              "prompt_index": 20952,
+              "sample_rank": 0,
+              "seed": 234255678
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 1,
+                "preview_id": 3,
+                "reward": 0.7791571617126465,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.7791571617126465
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.7073755264282227,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.7092580199241638,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.7611111998558044,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.7791571617126465,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.7660777568817139,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 3,
+                    "reward": 0.7791571617126465,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.7791571617126465,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04583277421839097,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "A very detailed 3d painting of modern London scenery from the parliament hill, in the style of David Roberts' The siege and destruction of Jerusalem",
+              "prompt_index": 3648,
+              "sample_rank": 1,
+              "seed": 75474175
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 1,
+                "preview_id": 3,
+                "reward": 0.7582152485847473,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.7582152485847473
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.696178674697876,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.6673388481140137,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.7490636706352234,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.7582152485847473,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.7489261627197266,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 3,
+                    "reward": 0.7582152485847473,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.7582152485847473,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04460089697557337,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "photo of  a millenium falcon in the city river with teddybear,flooded mini,splashing misty mud rocks,panorama,city buildings, large teddybears",
+              "prompt_index": 819,
+              "sample_rank": 2,
+              "seed": 49515272
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 2,
+                "preview_id": 4,
+                "reward": 0.7592884302139282,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.7592884302139282
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.6369264721870422,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.6765770316123962,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.7110927104949951,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.7582838535308838,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.7592884302139282,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 4,
+                    "reward": 0.7592884302139282,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.7592884302139282,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04466402530670166,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "This is a powerful photograph that showcases Walter White, the iconic character from Breaking Bad, holding a large metal sign with the text \"Make blue great again!\" emblazoned in bold white letters. The sign dominates the foreground, serving as a stark reminder of Walter's ruthless and ambitious nature. It appears weathered and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign.  The \"Make blue great again!\" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign's message is clear and direct, serving as a symbol of Walter's unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact.  The \"Make blue great again!\" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign's message is both ambiguous and ominous, hinting at Walter's complicated and dangerous character",
+              "prompt_index": 24299,
+              "sample_rank": 3,
+              "seed": 264967753
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 1,
+                "preview_id": 3,
+                "reward": 0.780442476272583,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.780442476272583
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.7405804395675659,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.6973164677619934,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.759562611579895,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.780442476272583,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.772389829158783,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 3,
+                    "reward": 0.780442476272583,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.780442476272583,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04590838095721077,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "Mister sentry, who keeps the atmosphere under the stop of time, fantasy, sci-fi, epic realistic",
+              "prompt_index": 9012,
+              "sample_rank": 4,
+              "seed": 124694242
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 2,
+                "preview_id": 4,
+                "reward": 0.8770623207092285,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.8770623207092285
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.8243099451065063,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.8327868580818176,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.8575144410133362,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.8702240586280823,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.8770623207092285,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 4,
+                    "reward": 0.8770623207092285,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.8770623207092285,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.05159190121818991,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "cute cat in a teacup, artistic art print, spashes of paint, strong vibrant colours, wet paint on canvas",
+              "prompt_index": 8024,
+              "sample_rank": 5,
+              "seed": 115628355
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 2,
+                "preview_id": 4,
+                "reward": 0.8120940327644348,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.8120940327644348
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.6790627241134644,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.6618356704711914,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.8112882971763611,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.7784121632575989,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 2,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.8120940327644348,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 4,
+                    "reward": 0.8120940327644348,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.8120940327644348,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04777023722143734,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "A super detailed white mecha, gundam, render, sci-fi, futuristic, unreal, unreal engine",
+              "prompt_index": 7314,
+              "sample_rank": 6,
+              "seed": 109113396
+            },
+            {
+              "answer": {
+                "nfe_used": 17,
+                "particle_id": 2,
+                "preview_id": 4,
+                "reward": 0.7773718237876892,
+                "rule": "best_preview_score",
+                "score_dict": {
+                  "pickscore": 0.7773718237876892
+                }
+              },
+              "event_log": [
+                {
+                  "action": "SPAWN",
+                  "budget_left": 128,
+                  "details": {
+                    "n": 2
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 0.0,
+                  "particle_ids": [
+                    0,
+                    1
+                  ],
+                  "step_id": 0
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 127,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 1
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 126,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 2
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 125,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 1
+                  },
+                  "input_time": 0.0,
+                  "nfe_cost": 1,
+                  "output_time": 0.1,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 3
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 124,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 2
+                  },
+                  "input_time": 0.1,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 4
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 123,
+                  "details": {
+                    "anchor_id": 0,
+                    "mode": "clean_anchor",
+                    "score": 0.7283616065979004,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 5
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 122,
+                  "details": {
+                    "anchor_id": 1,
+                    "mode": "clean_anchor",
+                    "score": 0.7382054328918457,
+                    "step_index": 2,
+                    "uncertainty": 0.8
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.2,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 6
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 121,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 7
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 120,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 8
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 119,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 9
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 118,
+                  "details": {
+                    "anchor_id": 2,
+                    "mode": "clean_anchor",
+                    "score": 0.766706109046936,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    0
+                  ],
+                  "step_id": 10
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 117,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 3
+                  },
+                  "input_time": 0.2,
+                  "nfe_cost": 1,
+                  "output_time": 0.3,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 11
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 116,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 4
+                  },
+                  "input_time": 0.3,
+                  "nfe_cost": 1,
+                  "output_time": 0.4,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 12
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 115,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 5
+                  },
+                  "input_time": 0.4,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 13
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 3,
+                    "mode": "clean_anchor",
+                    "score": 0.730658769607544,
+                    "step_index": 5,
+                    "uncertainty": 0.5
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 1,
+                  "output_time": 0.5,
+                  "particle_ids": [
+                    1
+                  ],
+                  "step_id": 14
+                },
+                {
+                  "action": "BACKWARD",
+                  "budget_left": 114,
+                  "details": {
+                    "anchor_id": 2,
+                    "noise_policy": "mixed_noise",
+                    "num_children": 1,
+                    "strength": 0.69,
+                    "target_step": 7
+                  },
+                  "input_time": 0.5,
+                  "nfe_cost": 0,
+                  "output_time": 0.7,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 15
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 113,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 8
+                  },
+                  "input_time": 0.7,
+                  "nfe_cost": 1,
+                  "output_time": 0.8,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 16
+                },
+                {
+                  "action": "FORWARD",
+                  "budget_left": 112,
+                  "details": {
+                    "cfg": null,
+                    "solver": "euler",
+                    "target_step": 9
+                  },
+                  "input_time": 0.8,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 17
+                },
+                {
+                  "action": "PREVIEW",
+                  "budget_left": 111,
+                  "details": {
+                    "anchor_id": 4,
+                    "mode": "clean_anchor",
+                    "score": 0.7773718237876892,
+                    "step_index": 9,
+                    "uncertainty": 0.09999999999999998
+                  },
+                  "input_time": 0.9,
+                  "nfe_cost": 1,
+                  "output_time": 0.9,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 18
+                },
+                {
+                  "action": "ANSWER",
+                  "budget_left": 111,
+                  "details": {
+                    "preview_id": 4,
+                    "reward": 0.7773718237876892,
+                    "rule": "best_preview_score"
+                  },
+                  "input_time": null,
+                  "nfe_cost": 0,
+                  "output_time": 1.0,
+                  "particle_ids": [
+                    2
+                  ],
+                  "step_id": 19
+                }
+              ],
+              "metrics": {
+                "action_counts": {
+                  "ANSWER": 1,
+                  "BACKWARD": 1,
+                  "FORWARD": 12,
+                  "PREVIEW": 5,
+                  "SPAWN": 1
+                },
+                "backward_calls": 1,
+                "false_prune_rate": null,
+                "final_reward": 0.7773718237876892,
+                "nfe": 17,
+                "num_particles_spawned": 2,
+                "preview_calls": 5,
+                "preview_final_correlation": null,
+                "reward_per_nfe": 0.04572775434045231,
+                "wasted_nfe_rate": null
+              },
+              "prompt": "cafe logo, emoji style, indian cooking, color logo, HD, 3d, family, healthy food,",
+              "prompt_index": 4572,
+              "sample_rank": 7,
+              "seed": 83952805
+            }
+          ],
+          "final_reward": 0.7882316261529922,
+          "nfe": 17,
+          "num_samples": 8,
+          "reward_per_nfe": 0.04636656624429366
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 8,
+  "score_device": "cuda:0",
+  "shard_index": 0,
+  "split": "train",
+  "text_encoder_device": "cuda:0"
+}

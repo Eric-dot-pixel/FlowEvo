@@ -1,0 +1,19 @@
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "matched_target_nfes": [
+    10,
+    25,
+    47,
+    73,
+    102
+  ],
+  "run_tag": "clean_b128_20260517_052333",
+  "test_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/test_matched_ode_clean_b128_20260517_052333",
+  "train_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_matched_ode_clean_b128_20260517_052333"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 10.0,
+      "mean_nfe": 10.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+    "beta": 0.0,
+    "nfe": 10.0,
+    "num_samples": 500,
+    "reward": 0.8191354913711548,
+    "reward_per_nfe": 0.08191354913711549
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 10.0,
+      "mean_nfe": 10.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+    "beta": 0.25,
+    "nfe": 10.0,
+    "num_samples": 500,
+    "reward": 0.8191354913711548,
+    "reward_per_nfe": 0.08191354913711549
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 10.0,
+      "mean_nfe": 10.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+    "beta": 0.5,
+    "nfe": 10.0,
+    "num_samples": 500,
+    "reward": 0.8191354913711548,
+    "reward_per_nfe": 0.08191354913711549
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 10.0,
+      "mean_nfe": 10.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+    "beta": 0.75,
+    "nfe": 10.0,
+    "num_samples": 500,
+    "reward": 0.8191354913711548,
+    "reward_per_nfe": 0.08191354913711549
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 10.0,
+      "mean_nfe": 10.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+    "beta": 1.0,
+    "nfe": 10.0,
+    "num_samples": 500,
+    "reward": 0.8191354913711548,
+    "reward_per_nfe": 0.08191354913711549
+  }
+]

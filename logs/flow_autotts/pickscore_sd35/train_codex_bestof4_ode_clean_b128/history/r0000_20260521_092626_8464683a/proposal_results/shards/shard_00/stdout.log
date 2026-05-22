@@ -1,0 +1,177 @@
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 125,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.8213632926940918,
+          "reward_per_nfe": 0.08213632926940918
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 20.0,
+            "mean_nfe": 26.0,
+            "preview": 6.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=6.00, nfe=26.00)",
+          "beta": 0.25,
+          "nfe": 26,
+          "reward": 0.8324170026779175,
+          "reward_per_nfe": 0.03201603856453529
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 1.688,
+            "forward": 33.944,
+            "mean_nfe": 44.352,
+            "preview": 10.408,
+            "prune": 0.28,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=10.41, backward=1.69, prune=0.28, nfe=44.35)",
+          "beta": 0.5,
+          "nfe": 44.352,
+          "reward": 0.8379047846794129,
+          "reward_per_nfe": 0.01904443017089252
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 2.808,
+            "forward": 43.488,
+            "mean_nfe": 57.024,
+            "preview": 13.536,
+            "prune": 1.048,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=13.54, backward=2.81, prune=1.05, nfe=57.02)",
+          "beta": 0.75,
+          "nfe": 57.024,
+          "reward": 0.8409442982673645,
+          "reward_per_nfe": 0.014817656602267243
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 3.936,
+            "forward": 66.024,
+            "mean_nfe": 84.768,
+            "preview": 18.744,
+            "prune": 1.008,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=18.74, backward=3.94, prune=1.01, nfe=84.77)",
+          "beta": 1.0,
+          "nfe": 84.768,
+          "reward": 0.8436750979423523,
+          "reward_per_nfe": 0.009975700788701473
+        }
+      ],
+      "controller": "optimal",
+      "controller_name": "OptimalController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.8213632926940918,
+          "reward_per_nfe": 0.08213632926940918
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 20.0,
+            "mean_nfe": 26.0,
+            "preview": 6.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=6.00, nfe=26.00)",
+          "beta": 0.25,
+          "nfe": 26,
+          "reward": 0.8324170026779175,
+          "reward_per_nfe": 0.03201603856453529
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 1.688,
+            "forward": 33.944,
+            "mean_nfe": 44.352,
+            "preview": 10.408,
+            "prune": 0.28,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=10.41, backward=1.69, prune=0.28, nfe=44.35)",
+          "beta": 0.5,
+          "nfe": 44.352,
+          "reward": 0.8379047846794129,
+          "reward_per_nfe": 0.01904443017089252
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 2.808,
+            "forward": 43.488,
+            "mean_nfe": 57.024,
+            "preview": 13.536,
+            "prune": 1.048,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=13.54, backward=2.81, prune=1.05, nfe=57.02)",
+          "beta": 0.75,
+          "nfe": 57.024,
+          "reward": 0.8409442982673645,
+          "reward_per_nfe": 0.014817656602267243
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "backward": 3.936,
+            "forward": 66.024,
+            "mean_nfe": 84.768,
+            "preview": 18.744,
+            "prune": 1.008,
+            "spawn": 1.0
+          },
+          "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=18.74, backward=3.94, prune=1.01, nfe=84.77)",
+          "beta": 1.0,
+          "nfe": 84.768,
+          "reward": 0.8436750979423523,
+          "reward_per_nfe": 0.009975700788701473
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": 0
+}

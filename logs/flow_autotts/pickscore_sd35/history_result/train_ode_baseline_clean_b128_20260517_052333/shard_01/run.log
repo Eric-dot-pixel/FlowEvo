@@ -1,0 +1,235 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]Loading pipeline components...:  11%|█         | 1/9 [00:00<00:02,  3.51it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   7%|▋         | 16/219 [00:00<00:01, 108.19it/s][A
+Loading weights:  12%|█▏        | 27/219 [00:00<00:02, 95.69it/s] [A
+Loading weights:  17%|█▋        | 37/219 [00:00<00:02, 76.40it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:00<00:01, 87.45it/s][A
+Loading weights:  28%|██▊       | 61/219 [00:00<00:02, 61.77it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:00<00:02, 65.14it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:01<00:02, 59.22it/s][A
+Loading weights:  40%|████      | 88/219 [00:01<00:02, 61.01it/s][A
+Loading weights:  43%|████▎     | 95/219 [00:01<00:02, 55.80it/s][A
+Loading weights:  47%|████▋     | 102/219 [00:01<00:02, 57.88it/s][A
+Loading weights:  50%|████▉     | 109/219 [00:01<00:01, 56.77it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:01<00:01, 58.90it/s][A
+Loading weights:  58%|█████▊    | 126/219 [00:01<00:01, 68.76it/s][A
+Loading weights:  61%|██████    | 134/219 [00:02<00:01, 61.32it/s][A
+Loading weights:  65%|██████▌   | 143/219 [00:02<00:01, 67.83it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:02<00:00, 73.49it/s][A
+Loading weights:  74%|███████▎  | 161/219 [00:02<00:00, 76.56it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:02<00:00, 63.24it/s][A
+Loading weights:  81%|████████  | 177/219 [00:02<00:00, 66.30it/s][A
+Loading weights:  84%|████████▍ | 185/219 [00:02<00:00, 56.86it/s][A
+Loading weights:  88%|████████▊ | 193/219 [00:02<00:00, 61.63it/s][A
+Loading weights:  91%|█████████▏| 200/219 [00:03<00:00, 63.60it/s][A
+Loading weights:  96%|█████████▌| 210/219 [00:03<00:00, 72.82it/s][A
+Loading weights: 100%|█████████▉| 218/219 [00:03<00:00, 73.49it/s][ALoading weights: 100%|██████████| 219/219 [00:03<00:00, 67.21it/s]
+Loading pipeline components...:  33%|███▎      | 3/9 [00:04<00:10,  1.79s/it]Loading pipeline components...:  44%|████▍     | 4/9 [00:05<00:06,  1.32s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [00:07<00:06,  1.54s/it]Loading pipeline components...:  78%|███████▊  | 7/9 [00:07<00:01,  1.21it/s]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  19%|█▉        | 98/517 [00:00<00:00, 959.80it/s][A
+Loading weights:  50%|████▉     | 256/517 [00:00<00:00, 1320.53it/s][A
+Loading weights:  93%|█████████▎| 482/517 [00:00<00:00, 1724.41it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1648.56it/s]
+Loading pipeline components...:  89%|████████▉ | 8/9 [00:08<00:00,  1.27it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 3919.30it/s]
+Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.64it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.09it/s]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 12788.41it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 125,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.25,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.5,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.75,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 1.0,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.25,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.5,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.75,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 1.0,
+          "nfe": 10,
+          "reward": 0.8225680866241455,
+          "reward_per_nfe": 0.08225680866241455
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": 1
+}

@@ -1,0 +1,147 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 5/219 [00:00<00:08, 25.04it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:00<00:02, 95.31it/s][A
+Loading weights:  17%|█▋        | 38/219 [00:00<00:02, 75.35it/s][A
+Loading weights:  22%|██▏       | 49/219 [00:00<00:02, 82.87it/s][A
+Loading weights:  27%|██▋       | 59/219 [00:00<00:02, 58.32it/s][A
+Loading weights:  31%|███       | 68/219 [00:01<00:02, 56.21it/s][A
+Loading weights:  34%|███▍      | 75/219 [00:01<00:02, 58.94it/s][A
+Loading weights:  37%|███▋      | 82/219 [00:01<00:02, 57.25it/s][A
+Loading weights:  41%|████      | 89/219 [00:01<00:02, 59.69it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:01<00:02, 53.82it/s][A
+Loading weights:  47%|████▋     | 104/219 [00:01<00:02, 57.39it/s][A
+Loading weights:  51%|█████     | 111/219 [00:01<00:01, 59.06it/s][A
+Loading weights:  55%|█████▍    | 120/219 [00:01<00:01, 65.39it/s][A
+Loading weights:  59%|█████▉    | 129/219 [00:02<00:01, 61.31it/s][A
+Loading weights:  62%|██████▏   | 136/219 [00:02<00:01, 61.40it/s][A
+Loading weights:  67%|██████▋   | 147/219 [00:02<00:01, 61.08it/s][A
+Loading weights:  71%|███████   | 155/219 [00:02<00:00, 65.39it/s][A
+Loading weights:  74%|███████▍  | 162/219 [00:02<00:00, 63.36it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:02<00:00, 53.86it/s][A
+Loading weights:  80%|███████▉  | 175/219 [00:02<00:00, 54.10it/s][A
+Loading weights:  84%|████████▎ | 183/219 [00:03<00:00, 59.53it/s][A
+Loading weights:  87%|████████▋ | 190/219 [00:03<00:00, 51.63it/s][A
+Loading weights:  89%|████████▉ | 196/219 [00:03<00:00, 50.03it/s][A
+Loading weights:  94%|█████████▎| 205/219 [00:03<00:00, 59.44it/s][A
+Loading weights:  97%|█████████▋| 212/219 [00:03<00:00, 52.74it/s][A
+Loading weights: 100%|██████████| 219/219 [00:03<00:00, 56.33it/s][ALoading weights: 100%|██████████| 219/219 [00:03<00:00, 59.29it/s]
+Loading pipeline components...:  11%|█         | 1/9 [00:04<00:35,  4.43s/it]Loading pipeline components...:  22%|██▏       | 2/9 [00:04<00:13,  1.97s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][A
+Loading weights:  48%|████▊     | 94/197 [00:00<00:00, 936.70it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 985.25it/s]
+Loading pipeline components...:  33%|███▎      | 3/9 [00:05<00:07,  1.32s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  14%|█▍        | 72/517 [00:00<00:00, 705.91it/s][A
+Loading weights:  28%|██▊       | 143/517 [00:00<00:00, 698.99it/s][A
+Loading weights:  45%|████▌     | 234/517 [00:00<00:00, 792.66it/s][A
+Loading weights:  61%|██████    | 314/517 [00:00<00:00, 614.21it/s][A
+Loading weights:  74%|███████▎  | 381/517 [00:00<00:00, 621.21it/s][A
+Loading weights:  91%|█████████▏| 472/517 [00:00<00:00, 701.48it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 729.23it/s]
+Loading pipeline components...:  44%|████▍     | 4/9 [00:06<00:06,  1.34s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [00:06<00:03,  1.10it/s]Loading pipeline components...:  67%|██████▋   | 6/9 [00:08<00:03,  1.22s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.91it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.03it/s]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 10737.08it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (96 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', diffused soft lighting , shallow depth of field , sharp focus , hyperrealism , cinematic lighting']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (96 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', diffused soft lighting , shallow depth of field , sharp focus , hyperrealism , cinematic lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['k , hd , cinematic lighting , realistic , photo realism , under the sun , sharp focus , unreal engine ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['k , hd , cinematic lighting , realistic , photo realism , under the sun , sharp focus , unreal engine ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['tti , krenz cushart , sakimichan ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['tti , krenz cushart , sakimichan ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['detailed and intricate']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['detailed and intricate']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['parade , roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['parade , roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['-hur gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['expansive , fantastical']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['expansive , fantastical']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ambient light , octa rendering , kathakali , soft ambient light , hd ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ambient light , octa rendering , kathakali , soft ambient light , hd ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['and fuji hoko and artgerm and greg rutkowski and viktoria gavrilenko']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['and fuji hoko and artgerm and greg rutkowski and viktoria gavrilenko']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', film grain , dslr , retro , dusk , outdoor , 8 k .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', film grain , dslr , retro , dusk , outdoor , 8 k .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['suit , hyperrealistic vfx render , inside a science facility ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['suit , hyperrealistic vfx render , inside a science facility ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yanjun cheng and julia razumova and kuvshinov ilya and anastasia berry and artgerm and guweiz and wlop and kim jung gi']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yanjun cheng and julia razumova and kuvshinov ilya and anastasia berry and artgerm and guweiz and wlop and kim jung gi']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['John Romita and Irakli Nadar and Yanjun Cheng and Julia Razumova and Kuvshinov Ilya and Anastasia berry and artgerm and guweiz and wlop and kim jung gi']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['8 k , highly detailed , full length frame , high detail raw color art , piercing , diffused soft lighting , shallow depth of field , sharp focus , hyperrealism , cinematic lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['8 k , highly detailed , full length frame , high detail raw color art , piercing , diffused soft lighting , shallow depth of field , sharp focus , hyperrealism , cinematic lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', detailed skin, realistic, award winning photograph, photo-realistic, 8k, highly detailed, full length frame, High detail RAW color art, piercing, diffused soft lighting, shallow depth of field, sharp focus, hyperrealism, cinematic lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['central : finalrender : unreal engine 5 : trending on artstation : jeff koons : deep colors : deep']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['central : finalrender : unreal engine 5 : trending on artstation : jeff koons : deep colors : deep']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['wind and waves , she is a athletes , inside the boat , the sailing boat style is optimist , white sail , detailed scenery , slightly realistic 0 . 1 , front view , colorful refraction , glow , soft illumination , french braid , perfect hands , illustration , extremely detailed cg , 8 k wallpaper , makoto shinkai']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['wind and waves , she is a athletes , inside the boat , the sailing boat style is optimist , white sail , detailed scenery , slightly realistic 0 . 1 , front view , colorful refraction , glow , soft illumination , french braid , perfect hands , illustration , extremely detailed cg , 8 k wallpaper , makoto shinkai']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['is a laser sailor driving a sailboat on the wind and waves, she is a Athletes, inside the boat, the sailing boat style is Optimist, white sail, detailed scenery, slightly realistic 0.1, front view, colorful refraction, glow,soft illumination, french braid, perfect hands, illustration,extremely detailed CG,8k wallpaper,Makoto Shinkai']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic composition , cinematic lighting , masterpiece , trending on artstation , very very detailed , masterpiece , stunning , 8 k , hdr , smooth , sharp focus , high resolution , award - winning photo , dslr , 5 0 mm']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic composition , cinematic lighting , masterpiece , trending on artstation , very very detailed , masterpiece , stunning , 8 k , hdr , smooth , sharp focus , high resolution , award - winning photo , dslr , 5 0 mm']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['ctane beautifully detailed render, post processing, portrait, extremely hyper, detailed, intricate, epic composition, cinematic lighting, masterpiece, trending on artstation, very very detailed, masterpiece, stunning, 8 k, hdr, smooth, sharp focus, high resolution, award - winning photo, dslr, 5 0 mm']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['some scientific experiment equipment or science - related items can be placed in the pocket , such as magnifying glass , microscope , chemical reagents , etc ., to highlight the scientific elements']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['some scientific experiment equipment or science - related items can be placed in the pocket , such as magnifying glass , microscope , chemical reagents , etc ., to highlight the scientific elements']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['tracing , reimagined by industrial light and magic , arabesque , modular constructivism , an ambient occlusion render by jan van huysum']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['tracing , reimagined by industrial light and magic , arabesque , modular constructivism , an ambient occlusion render by jan van huysum']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ["a building , rusty furniture in the library surrounded by books and painting on tranquilo , eliminación , cortina , caza , rodarpatos , ardilla , ambulatorio , sagrado , debajo fluid , baseball , platform , succinct , rely a painting of a man standing on top of a boat , by jacek yerka , surrealism , man with a blue heart , vereshchagin , noah 's ark , half horse - half mouse , peter sculthorpe , kiss , angus mckie , arkhip kuindzhi painting , my home , 1 4 9 3 , grain ” a cute cheese creature swimming , minimalism , trending on artstation , by petros afshar , anton fadeev , beautiful"]
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ["a building , rusty furniture in the library surrounded by books and painting on tranquilo , eliminación , cortina , caza , rodarpatos , ardilla , ambulatorio , sagrado , debajo fluid , baseball , platform , succinct , rely a painting of a man standing on top of a boat , by jacek yerka , surrealism , man with a blue heart , vereshchagin , noah 's ark , half horse - half mouse , peter sculthorpe , kiss , angus mckie , arkhip kuindzhi painting , my home , 1 4 9 3 , grain ” a cute cheese creature swimming , minimalism , trending on artstation , by petros afshar , anton fadeev , beautiful"]
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ["sad space museum in a cluttered library sitting on a building, rusty furniture in the library surrounded by books and painting on Tranquilo, Eliminación, Cortina, Caza, RodarPatos, Ardilla, Ambulatorio, Sagrado, Debajo Fluid, Baseball, Platform, Succinct, Rely a painting of a man standing on top of a boat, by Jacek Yerka, surrealism, man with a blue heart, vereshchagin, noah's ark, half horse - half mouse, peter sculthorpe, kiss, angus mckie, arkhip kuindzhi painting, my home, 1 4 9 3, grain” a cute cheese creature swimming, minimalism, trending on artstation, by petros afshar, anton fadeev, beautiful"]
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['photograph , masterpiece , oil on canvas , raphael , caravaggio , greg rutkowski , beeple , beksinski , giger']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['photograph , masterpiece , oil on canvas , raphael , caravaggio , greg rutkowski , beeple , beksinski , giger']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['artistic photography, photorealistic concept art, soft natural volumetric cinematic perfect light, chiaroscuro, award - winning photograph, masterpiece, oil on canvas, raphael, caravaggio, greg rutkowski, beeple, beksinski, giger']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', complex , elegant , expansive , fantastical']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', complex , elegant , expansive , fantastical']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['keh']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['keh']
+{
+  "betas": [
+    0.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 512,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 25.0,
+            "mean_nfe": 25.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=25.00)",
+          "beta": 0.0,
+          "nfe": 25,
+          "reward": 0.8317575266119093,
+          "reward_per_nfe": 0.03327030106447637
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 25.0,
+            "mean_nfe": 25.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=25.00)",
+          "beta": 0.0,
+          "nfe": 25,
+          "reward": 0.8317575266119093,
+          "reward_per_nfe": 0.03327030106447637
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 2048,
+  "shard_index": 2
+}

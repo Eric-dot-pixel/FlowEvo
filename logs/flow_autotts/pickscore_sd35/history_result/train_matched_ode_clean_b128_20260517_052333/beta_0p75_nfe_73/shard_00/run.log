@@ -1,0 +1,120 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]Loading pipeline components...:  22%|██▏       | 2/9 [00:00<00:00, 18.59it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   4%|▎         | 8/219 [00:00<00:06, 30.66it/s][A
+Loading weights:   6%|▌         | 13/219 [00:00<00:05, 37.19it/s][A
+Loading weights:   8%|▊         | 18/219 [00:00<00:06, 29.59it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:00<00:07, 26.40it/s][A
+Loading weights:  14%|█▍        | 31/219 [00:01<00:05, 31.68it/s][A
+Loading weights:  16%|█▌        | 35/219 [00:01<00:06, 27.79it/s][A
+Loading weights:  18%|█▊        | 39/219 [00:01<00:06, 26.86it/s][A
+Loading weights:  20%|█▉        | 43/219 [00:01<00:06, 27.24it/s][A
+Loading weights:  22%|██▏       | 49/219 [00:01<00:06, 24.53it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:01<00:07, 22.49it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:02<00:05, 29.19it/s][A
+Loading weights:  28%|██▊       | 62/219 [00:02<00:05, 29.72it/s][A
+Loading weights:  30%|███       | 66/219 [00:02<00:05, 27.41it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:02<00:04, 29.82it/s][A
+Loading weights:  34%|███▍      | 74/219 [00:02<00:05, 25.57it/s][A
+Loading weights:  37%|███▋      | 81/219 [00:02<00:04, 29.92it/s][A
+Loading weights:  40%|████      | 88/219 [00:03<00:03, 35.62it/s][A
+Loading weights:  43%|████▎     | 94/219 [00:03<00:03, 33.92it/s][A
+Loading weights:  45%|████▌     | 99/219 [00:03<00:03, 36.69it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:03<00:03, 32.37it/s][A
+Loading weights:  51%|█████     | 111/219 [00:03<00:02, 41.67it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:03<00:03, 29.93it/s][A
+Loading weights:  56%|█████▌    | 123/219 [00:03<00:02, 37.26it/s][A
+Loading weights:  58%|█████▊    | 128/219 [00:04<00:02, 33.54it/s][A
+Loading weights:  61%|██████    | 133/219 [00:04<00:02, 30.92it/s][A
+Loading weights:  63%|██████▎   | 139/219 [00:04<00:02, 34.56it/s][A
+Loading weights:  67%|██████▋   | 146/219 [00:04<00:01, 37.13it/s][A
+Loading weights:  69%|██████▉   | 151/219 [00:04<00:02, 32.92it/s][A
+Loading weights:  72%|███████▏  | 157/219 [00:04<00:01, 37.93it/s][A
+Loading weights:  74%|███████▍  | 162/219 [00:05<00:01, 39.49it/s][A
+Loading weights:  76%|███████▋  | 167/219 [00:05<00:01, 34.34it/s][A
+Loading weights:  78%|███████▊  | 171/219 [00:05<00:01, 29.91it/s][A
+Loading weights:  80%|████████  | 176/219 [00:05<00:01, 33.91it/s][A
+Loading weights:  82%|████████▏ | 180/219 [00:05<00:01, 28.85it/s][A
+Loading weights:  84%|████████▍ | 184/219 [00:05<00:01, 29.86it/s][A
+Loading weights:  88%|████████▊ | 192/219 [00:05<00:00, 39.80it/s][A
+Loading weights:  90%|████████▉ | 197/219 [00:06<00:00, 34.69it/s][A
+Loading weights:  92%|█████████▏| 201/219 [00:06<00:00, 30.30it/s][A
+Loading weights:  94%|█████████▍| 206/219 [00:06<00:00, 28.94it/s][A
+Loading weights:  98%|█████████▊| 214/219 [00:06<00:00, 37.67it/s][ALoading weights: 100%|██████████| 219/219 [00:06<00:00, 32.74it/s]
+
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 4515.53it/s]
+Loading pipeline components...:  44%|████▍     | 4/9 [00:08<00:12,  2.41s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [00:08<00:07,  1.75s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  14%|█▍        | 74/517 [00:00<00:00, 732.41it/s][A
+Loading weights:  31%|███▏      | 162/517 [00:00<00:00, 808.86it/s][A
+Loading weights:  47%|████▋     | 243/517 [00:00<00:00, 799.20it/s][A
+Loading weights:  65%|██████▌   | 338/517 [00:00<00:00, 853.16it/s][A
+Loading weights:  84%|████████▍ | 434/517 [00:00<00:00, 875.66it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 866.23it/s]
+Loading pipeline components...:  67%|██████▋   | 6/9 [00:09<00:04,  1.53s/it]Loading pipeline components...:  89%|████████▉ | 8/9 [00:10<00:01,  1.08s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:10<00:00,  1.18s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 12722.13it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics, artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['colliseum, intense heavy street battle, rpg rulebook photo, barracks, brick, high school, wielding a spear, indoor, portcullis, speed, outstanding detail, roleplay, schools,in front of a building,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', urban setting, unique character, creative concept, clever design, whimsical, refined appearance, DSLR quality, depth of field, sharp focus, high resolution, vibrant colors, natural lighting, cinematic composition, dynamic angle, professional photography, detailed textures, lifelike rendering, cozy atmosphere, relaxed environment, elegant background, blurred cafe scene, warm color palette, tasteful decor, stylish furnishings, soft lighting, inviting ambiance']
+{
+  "betas": [
+    0.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 125,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 73.0,
+            "mean_nfe": 73.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=73.00)",
+          "beta": 0.0,
+          "nfe": 73,
+          "reward": 0.8324422254562378,
+          "reward_per_nfe": 0.011403318156934765
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 73.0,
+            "mean_nfe": 73.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=73.00)",
+          "beta": 0.0,
+          "nfe": 73,
+          "reward": 0.8324422254562378,
+          "reward_per_nfe": 0.011403318156934765
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": 0
+}

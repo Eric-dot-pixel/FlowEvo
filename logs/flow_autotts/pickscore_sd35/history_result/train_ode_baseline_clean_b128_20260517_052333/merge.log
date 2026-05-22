@@ -1,0 +1,41 @@
+{
+  "output": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_ode_baseline_clean_b128_20260517_052333/history.json",
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "beta": 0.0,
+          "nfe": 0.0,
+          "reward": null,
+          "reward_per_nfe": null
+        },
+        {
+          "beta": 0.25,
+          "nfe": 0.0,
+          "reward": null,
+          "reward_per_nfe": null
+        },
+        {
+          "beta": 0.5,
+          "nfe": 0.0,
+          "reward": null,
+          "reward_per_nfe": null
+        },
+        {
+          "beta": 0.75,
+          "nfe": 0.0,
+          "reward": null,
+          "reward_per_nfe": null
+        },
+        {
+          "beta": 1.0,
+          "nfe": 0.0,
+          "reward": null,
+          "reward_per_nfe": null
+        }
+      ],
+      "controller_key": "sd35_default",
+      "round_id": 0
+    }
+  ]
+}

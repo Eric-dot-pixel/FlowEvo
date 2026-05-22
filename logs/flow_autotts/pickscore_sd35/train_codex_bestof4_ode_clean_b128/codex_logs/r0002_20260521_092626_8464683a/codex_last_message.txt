@@ -1,0 +1,36 @@
+**Controller**
+- New policy in [`optimal.py`](file:///inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py:13) is a beta-scheduled scout/confirm/branch/prune controller, not finish-first best-of-N.
+- It uses 1-4 roots, early scout previews, score-gap/uncertainty-gated pruning, selective backward branching, and high-beta late confirmation/top-off in [`_schedule`](file:///inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py:62), [`_branch_and_refine`](file:///inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py:178), and [`_late_confirmation`](file:///inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py:294).
+
+**What I Inspected**
+- Context pack frontier rows: latest rewards/NFE were `0.8192/10`, `0.8342/26.1`, `0.8394/45.672`, `0.8360/64.828`, `0.8380/91.922`.
+- Baseline rows: nearest ODE was `0.6765/8`, `0.8167/24`, `0.8422/44`, `0.8481/72`, `0.8495/100`.
+- Latest controller snapshots: `r0000` and `r0001` summaries plus the two snapshot files in the context pack.
+
+**Findings**
+- Beat ODE: `beta=0.0` and `0.25`.
+- Did not beat ODE: `beta=0.5`, `0.75`, `1.0`.
+- `r0000 -> r0001` was a real behavior change mainly at `beta=0.25` (single-root preview -> backward refinement); the rest were mostly threshold tuning.
+- Prior compute was spent on early previews and full-root completions, then modest backward children, with little pruning.
+
+**Schedule**
+- `beta=0`: deterministic ODE finish, then `latest_active`.
+- `0 < beta < 0.25`: 1 root, cheap scout, no branch.
+- `0.25-0.54`: 2 roots, 1 branch anchor, 1 child, inferred noise.
+- `0.55-0.84`: 3 roots, 2 branch anchors, 2 children, mixed noise, 1 top-off.
+- `>=0.85`: 4 roots, 3 branch anchors, 3 children, 2 top-offs, later confirmation.
+- Monotonicity: higher beta increases roots, confirm depth, branch count, child count, and willingness to spend late compute.
+
+**Target-NFE Reflection**
+- `beta=0.0`: justified early stop, no underuse.
+- `beta=0.25`: previous controller likely underused/under-allocated; I expanded it with 2 roots and confirm/branch gating.
+- `beta=0.5`: not mainly underuse; fixed allocation quality instead of adding blind compute.
+- `beta=0.75`: previous controller looked under-spent versus its target; I added more breadth, confirm, and top-off.
+- `beta=1.0`: same, strongest budget-upshift and late confirmation.
+
+**Checks**
+- `python3 -m py_compile flow_autotts/controllers/optimal.py`
+- `python3` fake-env smoke sweep across `beta=0, .25, .5, .75, 1.0`
+
+**Risk**
+- Main risk is over-branching on noisy previews at `beta>=0.75`; if PickScore preview calibration is weak, pruning may be too aggressive.

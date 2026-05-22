@@ -1,0 +1,38 @@
+Implemented in [`flow_autotts/controllers/optimal.py`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py).
+
+**Controller**
+A beta-smooth scout/confirm/prune/refine policy: low beta stays near deterministic ODE anchoring, mid beta adds preview-guided width plus selective backward children, high beta keeps more contenders alive and branches from the best confirmed anchors.
+
+**Inspected**
+I read [`flow_tts_controller_implementation_spec.md`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_tts_controller_implementation_spec.md), the context pack at [`context_pack.md`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/codex_logs/r0000_20260521_092626_8464683a/context_pack.md), [`flow_autotts/controllers/optimal.py`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py), and [`flow_autotts/controllers/baselines.py`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/baselines.py). The `history/` directory had no prior round files, and the snapshot directory only contained the rendered prompt/context pack, so there were no earlier controller snapshots to diff against.
+
+The only frontier rows available were the ODE baseline rows:
+- beta `0.0`: reward `0.6765`, mean NFE `8`
+- beta `0.25`: reward `0.8167`, mean NFE `24`
+- beta `0.5`: reward `0.8422`, mean NFE `44`
+- beta `0.75`: reward `0.8481`, mean NFE `72`
+- beta `1.0`: reward `0.8495`, mean NFE `100`
+
+**Schedule**
+- `beta<=0`: deterministic anchor, `latest_active`
+- `scouts = 1 + [β>0] + [β>=0.33] + [β>=0.66] + [β>=0.9]`
+- `first_probe_time = grid(round((0.18 + 0.10β) * last_idx))`
+- `second_probe_time = grid(round((0.50 + 0.18β) * last_idx))`
+- `child_time = grid(round((0.82 - 0.22β) * last_idx))`
+- `keep_base = 1 + [β>=0.40] + [β>=0.80]`
+- `finish_base = 1 + [β>=0.45] + [β>=0.85]`
+- `branch_base = [β>=0.35] + [β>=0.75] + [β>=0.95]`
+- `noise_policy = inferred_noise` if `β<0.55`, else `mixed_noise`
+- `noise_strength = clamp(0.84 - 0.44β, 0.25, 0.85)`
+
+Budget use is monotonic because higher beta increases scout count, keep/finish/branch counts, and shifts refinement earlier enough to make backward/finish chains more expensive.
+
+**What’s new**
+This is behaviorally different from the previous best-of-N style controller: it uses preview gaps and uncertainty to decide keep/prune/branch, adds a second confirmation probe, and allocates backward children selectively from ranked anchors instead of finishing every root then refining uniformly.
+
+**Checks**
+- `python3 -m py_compile flow_autotts/controllers/optimal.py`
+- `python3` fake-env dry run across beta `0.0/0.25/0.5/0.75/1.0` to exercise `spawn/forward/preview/backward/prune/answer`
+
+**Risks**
+Preview score calibration may still dominate branch selection; the main expected gains are at beta `0.25`, `0.5`, and `0.75`. Beta `0.0` underuse is justified. Beta `0.25` is intentionally conservative to avoid losing to ODE. Beta `0.5+` was adjusted upward to use more of the target compute.

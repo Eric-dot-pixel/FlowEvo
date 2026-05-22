@@ -1,0 +1,188 @@
+{
+  "devices": [
+    "cuda:0",
+    "cuda:1",
+    "cuda:2",
+    "cuda:3"
+  ],
+  "output": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/training_results/history.json",
+  "shard_root": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/training_results/shards",
+  "summary": {
+    "betas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "budget": 128,
+    "evaluated_sample_size": 500,
+    "experiment": "pickscore_sd35",
+    "num_shards": 4,
+    "rounds": [
+      {
+        "beta_sweep": [
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "forward": 10.0,
+              "mean_nfe": 10.0,
+              "spawn": 1.0
+            },
+            "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+            "beta": 0.0,
+            "nfe": 10,
+            "reward": 0.8191596091985702,
+            "reward_per_nfe": 0.08191596091985702
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "forward": 20.0,
+              "mean_nfe": 26.0,
+              "preview": 6.0,
+              "spawn": 1.0
+            },
+            "behavior_summary": "single-root preview (spawn=1.00, preview=6.00, nfe=26.00)",
+            "beta": 0.25,
+            "nfe": 26,
+            "reward": 0.8307563239336013,
+            "reward_per_nfe": 0.031952166305138516
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 1.0,
+              "forward": 32.916,
+              "mean_nfe": 43.374,
+              "preview": 10.458,
+              "prune": 0.262,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=10.46, backward=1.00, prune=0.26, nfe=43.37)",
+            "beta": 0.5,
+            "nfe": 43.374,
+            "reward": 0.8364666754007339,
+            "reward_per_nfe": 0.019314622921603068
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 1.594,
+              "forward": 49.114,
+              "mean_nfe": 65.068,
+              "preview": 15.954,
+              "prune": 0.006,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=15.95, backward=1.59, prune=0.01, nfe=65.07)",
+            "beta": 0.75,
+            "nfe": 65.068,
+            "reward": 0.8404532785415649,
+            "reward_per_nfe": 0.013004546179389464
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 2.384,
+              "forward": 72.588,
+              "mean_nfe": 94.844,
+              "preview": 22.256,
+              "prune": 0.092,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=22.26, backward=2.38, prune=0.09, nfe=94.84)",
+            "beta": 1.0,
+            "nfe": 94.844,
+            "reward": 0.8432008126974105,
+            "reward_per_nfe": 0.009069787800991259
+          }
+        ],
+        "controller": "optimal",
+        "controller_name": "OptimalController",
+        "pareto_frontier": [
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "forward": 10.0,
+              "mean_nfe": 10.0,
+              "spawn": 1.0
+            },
+            "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+            "beta": 0.0,
+            "nfe": 10,
+            "reward": 0.8191596091985702,
+            "reward_per_nfe": 0.08191596091985702
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "forward": 20.0,
+              "mean_nfe": 26.0,
+              "preview": 6.0,
+              "spawn": 1.0
+            },
+            "behavior_summary": "single-root preview (spawn=1.00, preview=6.00, nfe=26.00)",
+            "beta": 0.25,
+            "nfe": 26,
+            "reward": 0.8307563239336013,
+            "reward_per_nfe": 0.031952166305138516
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 1.0,
+              "forward": 32.916,
+              "mean_nfe": 43.374,
+              "preview": 10.458,
+              "prune": 0.262,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=10.46, backward=1.00, prune=0.26, nfe=43.37)",
+            "beta": 0.5,
+            "nfe": 43.374,
+            "reward": 0.8364666754007339,
+            "reward_per_nfe": 0.019314622921603068
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 1.594,
+              "forward": 49.114,
+              "mean_nfe": 65.068,
+              "preview": 15.954,
+              "prune": 0.006,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=15.95, backward=1.59, prune=0.01, nfe=65.07)",
+            "beta": 0.75,
+            "nfe": 65.068,
+            "reward": 0.8404532785415649,
+            "reward_per_nfe": 0.013004546179389464
+          },
+          {
+            "action_statistics": {
+              "answer": 1.0,
+              "backward": 2.384,
+              "forward": 72.588,
+              "mean_nfe": 94.844,
+              "preview": 22.256,
+              "prune": 0.092,
+              "spawn": 1.0
+            },
+            "behavior_summary": "preview-guided backward refinement (spawn=1.00, preview=22.26, backward=2.38, prune=0.09, nfe=94.84)",
+            "beta": 1.0,
+            "nfe": 94.844,
+            "reward": 0.8432008126974105,
+            "reward_per_nfe": 0.009069787800991259
+          }
+        ],
+        "round_id": 0
+      }
+    ],
+    "sample_seed": 42,
+    "sample_size": 500,
+    "shard_index": null
+  },
+  "summary_output": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/training_results/summary.json"
+}

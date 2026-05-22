@@ -1,0 +1,74 @@
+{
+  "comparisons": [
+    {
+      "best_nfe": 10,
+      "best_of": 4,
+      "best_reward": 0.8191354913711548,
+      "best_reward_per_nfe": 0.08191354913711547,
+      "bestof4_ode_nfe": 8.0,
+      "bestof4_ode_reward": 0.6764771305322647,
+      "bestof4_ode_reward_per_nfe": 0.08455964131653308,
+      "beta": 0.0,
+      "nfe_delta": 2.0,
+      "reward_delta": 0.14265836083889016,
+      "single_ode_nfe": 2,
+      "target_nfe": 10
+    },
+    {
+      "best_nfe": 22,
+      "best_of": 4,
+      "best_reward": 0.8308050895929336,
+      "best_reward_per_nfe": 0.03776386770876971,
+      "bestof4_ode_nfe": 24.0,
+      "bestof4_ode_reward": 0.816731225013733,
+      "bestof4_ode_reward_per_nfe": 0.03403046770890554,
+      "beta": 0.25,
+      "nfe_delta": -2.0,
+      "reward_delta": 0.014073864579200679,
+      "single_ode_nfe": 6,
+      "target_nfe": 25
+    },
+    {
+      "best_nfe": 47,
+      "best_of": 4,
+      "best_reward": 0.8423912631273269,
+      "best_reward_per_nfe": 0.01792321836441121,
+      "bestof4_ode_nfe": 44.0,
+      "bestof4_ode_reward": 0.8422055500745773,
+      "bestof4_ode_reward_per_nfe": 0.019141035228967665,
+      "beta": 0.5,
+      "nfe_delta": 3.0,
+      "reward_delta": 0.00018571305274961425,
+      "single_ode_nfe": 11,
+      "target_nfe": 47
+    },
+    {
+      "best_nfe": 72.458,
+      "best_of": 4,
+      "best_reward": 0.8428731104135513,
+      "best_reward_per_nfe": 0.011636123889706354,
+      "bestof4_ode_nfe": 72.0,
+      "bestof4_ode_reward": 0.8481007544994354,
+      "bestof4_ode_reward_per_nfe": 0.011779177145825492,
+      "beta": 0.75,
+      "nfe_delta": 0.4579999999999984,
+      "reward_delta": -0.005227644085884164,
+      "single_ode_nfe": 18,
+      "target_nfe": 73
+    },
+    {
+      "best_nfe": 100.8,
+      "best_of": 4,
+      "best_reward": 0.8466274963617325,
+      "best_reward_per_nfe": 0.008399894830752614,
+      "bestof4_ode_nfe": 100.0,
+      "bestof4_ode_reward": 0.849547344326973,
+      "bestof4_ode_reward_per_nfe": 0.00849547344326973,
+      "beta": 1.0,
+      "nfe_delta": 0.7999999999999972,
+      "reward_delta": -0.002919847965240474,
+      "single_ode_nfe": 25,
+      "target_nfe": 102
+    }
+  ]
+}

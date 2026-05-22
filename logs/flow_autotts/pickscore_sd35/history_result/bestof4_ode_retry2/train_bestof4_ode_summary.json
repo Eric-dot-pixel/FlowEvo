@@ -1,0 +1,115 @@
+{
+  "best_of": 4,
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "experiment": "pickscore_sd35_bestof4_ode",
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 4.0,
+            "forward": 8.0,
+            "mean_nfe": 8.0,
+            "spawn": 4.0
+          },
+          "behavior_summary": "best-of-4 deterministic ODE (single_ode_nfe=2, total_nfe=8.00)",
+          "best_of": 4,
+          "beta": 0.0,
+          "nfe": 8.0,
+          "reward": 0.6764771305322647,
+          "reward_per_nfe": 0.08455964131653308,
+          "single_ode_nfe": 2,
+          "target_nfe": 10
+        },
+        {
+          "action_statistics": {
+            "answer": 4.0,
+            "forward": 24.0,
+            "mean_nfe": 24.0,
+            "spawn": 4.0
+          },
+          "behavior_summary": "best-of-4 deterministic ODE (single_ode_nfe=6, total_nfe=24.00)",
+          "best_of": 4,
+          "beta": 0.25,
+          "nfe": 24.0,
+          "reward": 0.816731225013733,
+          "reward_per_nfe": 0.03403046770890554,
+          "single_ode_nfe": 6,
+          "target_nfe": 25
+        },
+        {
+          "action_statistics": {
+            "answer": 4.0,
+            "forward": 44.0,
+            "mean_nfe": 44.0,
+            "spawn": 4.0
+          },
+          "behavior_summary": "best-of-4 deterministic ODE (single_ode_nfe=11, total_nfe=44.00)",
+          "best_of": 4,
+          "beta": 0.5,
+          "nfe": 44.0,
+          "reward": 0.8422055500745773,
+          "reward_per_nfe": 0.019141035228967665,
+          "single_ode_nfe": 11,
+          "target_nfe": 47
+        },
+        {
+          "action_statistics": {
+            "answer": 4.0,
+            "forward": 72.0,
+            "mean_nfe": 72.0,
+            "spawn": 4.0
+          },
+          "behavior_summary": "best-of-4 deterministic ODE (single_ode_nfe=18, total_nfe=72.00)",
+          "best_of": 4,
+          "beta": 0.75,
+          "nfe": 72.0,
+          "reward": 0.8481007544994354,
+          "reward_per_nfe": 0.011779177145825492,
+          "single_ode_nfe": 18,
+          "target_nfe": 73
+        },
+        {
+          "action_statistics": {
+            "answer": 4.0,
+            "forward": 100.0,
+            "mean_nfe": 100.0,
+            "spawn": 4.0
+          },
+          "behavior_summary": "best-of-4 deterministic ODE (single_ode_nfe=25, total_nfe=100.00)",
+          "best_of": 4,
+          "beta": 1.0,
+          "nfe": 100.0,
+          "reward": 0.849547344326973,
+          "reward_per_nfe": 0.00849547344326973,
+          "single_ode_nfe": 25,
+          "target_nfe": 102
+        }
+      ],
+      "controller": "sd35_default_bestof4",
+      "controller_name": "BestOf4DeterministicEulerController",
+      "round_id": 0
+    }
+  ],
+  "single_ode_nfes": [
+    2,
+    6,
+    11,
+    18,
+    25
+  ],
+  "split": "train",
+  "target_nfes": [
+    10,
+    25,
+    47,
+    73,
+    102
+  ]
+}

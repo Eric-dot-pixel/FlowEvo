@@ -1,0 +1,30 @@
+Implemented a new tournament-style controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L10). The policy is: spawn multiple roots, scout them at mid time, prune losers, confirm only survivors later, finish only finalists, then spend backward budget with a champion-challenger allocator that splits children across the top 1-3 anchors only when the confirmed score gap is small or uncertainty is high. That directly targets the `r0003` weakness where beta `0.5/0.75/1.0` lost to nearest ODE while spending mostly on previews and only a little on backward refinement.
+
+I inspected the compact baseline table in the context pack, the frontier rows for `r0003` (`beta=0.0/0.25/0.5/0.75/1.0`, rewards `0.8192/0.8308/0.8365/0.8405/0.8432`, mean NFE `10/26/43.4/65.1/94.8`), and the `r0003`, `r0002`, and `r0001` controller snapshots/summaries. Relative to ODE, only `beta=0.0` and `0.25` were winning; `0.5`, `0.75`, and `1.0` were still behind. The last two successful snapshots were the same scout-confirm-branch family with timing/threshold shifts; this round changes the mechanism itself.
+
+The exact schedule is in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L65). Budget use is monotone because all spend-driving knobs are nondecreasing in beta: `roots`, `keep_base`, `finish_base`, `branch_anchors`, `children`, `late_finishes`, plus later confirmation and earlier backward target times for stronger local search. Concretely:
+- `beta=0.0`: deterministic one-root finish only, near 10 NFE.
+- `beta=0.25`: `roots=2`, `keep_base=2`, `finish_base=1`, no backward, no late finishes.
+- `beta=0.5`: `roots=4`, `keep_base=3`, `finish_base=2`, `branch_anchors=1`, `children=2`.
+- `beta=0.75`: `roots=6`, `keep_base=4`, `finish_base=3`, `branch_anchors=2`, `children=3`, `late_finishes=1`.
+- `beta=1.0`: `roots=7`, `keep_base=4`, `finish_base=4`, `branch_anchors=3`, `children=5`, `late_finishes=2`.
+Times are smooth functions of beta: `scout_time=grid(0.38+0.10*beta)`, `confirm_time=grid(0.74+0.08*beta)`, `branch_time=grid(0.78-0.20*beta)`.
+
+Behaviorally new versus the recent best:
+- Multi-root mid-time tournament instead of mostly single-root preview accumulation.
+- Confirmed-gap child allocation: decisive winner gets most children; close contests split children across top two or three anchors.
+- Late budget goes to finishing ranked active contenders, not just more confirmation previews.
+- Noise policy now changes by regime: `fresh_noise` at low beta, `inferred_noise` at mid beta, `mixed_noise` at high beta.
+
+Checks run:
+- `python3 -m py_compile flow_autotts/controllers/optimal.py`
+- `python3` fake-env dry run over betas `0.0/0.25/0.5/0.75/1.0`; it terminated correctly with monotone spend (`10/26/63/90/119` NFE in the stub). I did not run the full SD3.5 eval.
+
+Target-NFE reflection:
+- `beta=0.0`: underuse is justified; I left it deterministic.
+- `beta=0.25`: previous low-beta already beat ODE, so I kept it lean; no artificial top-off.
+- `beta=0.5`: this was a weak region, so I increased width and added selective backward on confirmed winners; this is an intentional utilization increase, not filler.
+- `beta=0.75`: prior controller looked underused relative to available budget and still trailed ODE; I added second-anchor refinement and one late finish.
+- `beta=1.0`: prior controller still trailed ODE below the budget ceiling; I pushed utilization upward with more roots, more anchors, more children, and two late finishes.
+
+Main risks are that mid-time previews may still be noisy enough to mis-rank roots at `beta=0.5`, and the wider tournament could overspend if extra diversity does not translate into better finalists. The proposal is specifically aimed at improving the `beta=0.5`, `0.75`, and `1.0` frontier rows while preserving the existing `beta=0.25` strength.

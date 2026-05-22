@@ -1,0 +1,11 @@
+Controller: preview-gated multi-root scout/confirm/refine with score-gap + uncertainty pruning, then beta-scaled top-off branching. It targets the mid/high-beta weakness where the prior policy spent mostly on one finished root and still lost to ODE at `beta=0.5/0.75/1.0`.
+
+Inspected: [context pack]( /inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/codex_logs/r0001_20260521_092626_8464683a/context_pack.md ), [archived r0000 controller]( /inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/train_codex_bestof4_ode_clean_b128/history/r0000_20260521_092626_8464683a/flow_autotts/controllers/optimal.py ), current [optimal.py]( /inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py ), and the baseline/frontier rows in `context_pack.md`. Nearest ODE baseline comparison: `beta=0.0` and `0.25` beat baseline; `0.5/0.75/1.0` did not.
+
+Schedule: `scouts = 1 + [b>0] + [b>=0.2] + [b>=0.45] + [b>=0.7] + [b>=0.9]`; keep/branch/child counts all rise monotonically with beta; probe times shift later with beta; target spend uses `target_nfe = budget * (0.09 + 0.34b + 0.28b^2)` capped by budget. That makes higher beta strictly more willing to spend compute, while low beta stays near ODE-like behavior.
+
+Novelty: this is not just a threshold tweak. It adds beta-conditioned multi-root scouting, explicit confirmation, score-gap-aware pruning, and a late top-off pass that only spends extra budget when preview evidence remains ambiguous.
+
+Checks: `python3 -m py_compile flow_autotts/controllers/optimal.py`; tiny fake-env dry-run across `beta = 0.0, 0.25, 0.5, 0.75, 1.0` hit all branches.
+
+Per beta: `0.0` early stop is justified; `0.25` stays conservative with limited scouting; `0.5`, `0.75`, `1.0` were underusing target NFE before, so I adjusted them upward with more scouts, more keepers/children, and a top-off pass. Risks: over-branching on noisy early previews, or still not fully closing the gap at `beta >= 0.75` if the score signal is flat.

@@ -1,0 +1,98 @@
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget": 128,
+  "experiment": "pickscore_sd35",
+  "matched_target_nfes": [
+    10,
+    25,
+    47,
+    73,
+    102
+  ],
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 10.0,
+            "mean_nfe": 10.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10.0,
+          "reward": 0.82123224606039,
+          "reward_per_nfe": 0.082123224606039,
+          "target_nfe": 10
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 25.0,
+            "mean_nfe": 25.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=25.00)",
+          "beta": 0.25,
+          "nfe": 25.0,
+          "reward": 0.8344374960288405,
+          "reward_per_nfe": 0.033377499841153624,
+          "target_nfe": 25
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 47.0,
+            "mean_nfe": 47.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=47.00)",
+          "beta": 0.5,
+          "nfe": 47.0,
+          "reward": 0.8342645419761539,
+          "reward_per_nfe": 0.017750309403747954,
+          "target_nfe": 47
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 73.0,
+            "mean_nfe": 73.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=73.00)",
+          "beta": 0.75,
+          "nfe": 73.0,
+          "reward": 0.833595605159644,
+          "reward_per_nfe": 0.011419117878899234,
+          "target_nfe": 73
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 102.0,
+            "mean_nfe": 102.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=102.00)",
+          "beta": 1.0,
+          "nfe": 102.0,
+          "reward": 0.8334171767637599,
+          "reward_per_nfe": 0.008170756634938823,
+          "target_nfe": 102
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "round_id": 0
+    }
+  ],
+  "split": "test"
+}

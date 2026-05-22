@@ -1,0 +1,49 @@
+{
+  "betas": [
+    0.0
+  ],
+  "budget": 128,
+  "evaluated_sample_size": 512,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 73.0,
+            "mean_nfe": 73.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=73.00)",
+          "beta": 0.0,
+          "nfe": 73,
+          "reward": 0.8304150437470526,
+          "reward_per_nfe": 0.011375548544480172
+        }
+      ],
+      "controller": "sd35_default",
+      "controller_name": "SD35DefaultDeterministicEulerController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 73.0,
+            "mean_nfe": 73.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic forward (spawn=1.00, preview=0.00, nfe=73.00)",
+          "beta": 0.0,
+          "nfe": 73,
+          "reward": 0.8304150437470526,
+          "reward_per_nfe": 0.011375548544480172
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 2048,
+  "shard_index": 2
+}
