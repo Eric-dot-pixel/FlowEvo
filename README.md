@@ -140,3 +140,7 @@ python -m py_compile flow_autotts/controllers/optimal.py
 python -m pytest tests/test_workflow.py
 ```
 
+## 重跑结果
+```
+bash FlowEvo/flow_autotts/experiments/pickscore_sd35/run_workflow_bestof4_b128.sh
+```
